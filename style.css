@@ -156,14 +156,26 @@ main {
 }
 
 footer{
-    position: absolute;
+   /*  position: absolute;
     bottom: 0;
     background-color: var(--purple);;
     width: 100%;
-    height: 45px;
+    height: 45px; */
+
+	 position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--purple);
+    color: white;
+   /*  text-align: center; 
+	height: 7%; */
+
+
+	
 }
 
-.footer-para{
+ .footer-para{
     text-align: center;
-    margin: 10px;
-}
+   
+} 
